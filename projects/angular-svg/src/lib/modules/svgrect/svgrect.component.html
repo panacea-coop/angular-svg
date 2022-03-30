@@ -1,5 +1,9 @@
 <svg:rect [attr.x]="rectangle?.x"
           [attr.y]="rectangle?.y"
+          [attr.rx]="rectangle?.rx"
+          [attr.ry]="rectangle?.ry"
+          [attr.width]="rectangle?.width"
+          [attr.height]="rectangle?.height"
           [attr.stroke]="rectangle?.stroke?.strokeFill"
           [attr.stroke-dasharray]="rectangle?.stroke?.dashArray"
           [attr.stroke-width]="rectangle?.stroke?.thickness"
@@ -9,3 +13,5 @@
           (mousedown)="onRectangleMouseDown($event)"
           (mouseover)="onRectangleMouseOver($event)">
 </svg:rect>`
+
+{{rectangle | json}}

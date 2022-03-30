@@ -1,7 +1,7 @@
 
 
 ## SetUp
-`npm install angular-svg2`
+`npm install @panacea-coop/angular-svg`
 
 ## Usage
 `import {
@@ -11,7 +11,7 @@ SvgPolygonModule,
 SvgPolylineModule,
 SvgTextModule,
 SvgPathModule
-} from 'angular-svg2'`
+} from '@panacea-coop/angular-svg'`
 
 #Modules List :
 1. SvgCricle

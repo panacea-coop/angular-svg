@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "angular-svg2": [
-        "dist/angular-svg2"
+      "angular-svg": [
+        "dist/angular-svg"
       ],
-      "angular-svg2/*": [
-        "dist/angular-svg2/*"
+      "angular-svg/*": [
+        "dist/angular-svg/*"
       ]
     }
   },

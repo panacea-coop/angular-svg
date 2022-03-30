@@ -1,8 +1,8 @@
 /*
- * Public API Surface of angular-svg2
+ * Public API Surface of angular-svg
  */
 
-export * from './lib/types';
+export * from './lib/types/index';
 export * from './lib/modules/svgcircle/svgcircle.module';
 export * from './lib/modules/svgellipse/svgellipse.module';
 export * from './lib/modules/svgline/svgline.module';
