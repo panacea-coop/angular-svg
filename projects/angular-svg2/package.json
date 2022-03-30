@@ -1,8 +1,20 @@
 {
   "name": "@panacea-coop/angular-svg",
-  "version": "3.0.0",
+  "description": "A Angular2 (or more) library to use svg components and leverage angular features. Inline angular binding with svg",
+  "author": "https://github.com/panacea-coop/angular-svg/graphs/contributors",
+  "version": "3.0.0-beta.2",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panacea-coop/angular-svg.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panacea-coop/angular-svg/issues"
+  },
+  "homepage": "https://github.com/panacea-coop/angular-svg#readme",
+  "keywords": ["angular", "ng", "svg", "angular-svg", "svgpolygon", "svgcircle", "svgtext", "svgpath", "svgline"]
 }
