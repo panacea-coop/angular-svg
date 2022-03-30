@@ -1,0 +1,9 @@
+<svg:polyline [attr.stroke]="polyline?.stroke?.strokeFill"
+              [attr.fill]="polyline?.stroke?.fill"
+              [attr.stroke-opacity]="polyline?.stroke?.opacity"
+              [attr.stroke-dasharray]="polyline?.stroke?.dashArray"
+              [attr.stroke-width]="polyline?.stroke?.thickness"
+              [attr.points]="pointsString"
+              vector-effect="non-scaling-stroke"
+              (mousedown)="onPolylineMouseDown($event)">
+</svg:polyline>

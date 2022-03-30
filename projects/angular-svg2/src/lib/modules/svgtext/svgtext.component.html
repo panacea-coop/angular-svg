@@ -1,0 +1,12 @@
+<svg:text [attr.transform]="transform"
+          [attr.x]="x"
+          [attr.y]="y"
+          [attr.fill]="fontStyle?.fontFill"
+          [attr.font-family]="fontStyle?.fontFamily"
+          [attr.font-size]="fontStyle?.fontSize"
+          [attr.font-weight]="fontStyle?.fontWeight"
+          [attr.font-style]="fontStyle?.fontStyle"
+          dominant-baseline="central"
+          text-anchor="middle">
+  <ng-content></ng-content>
+</svg:text>

@@ -1,0 +1,10 @@
+<svg:polygon [attr.stroke]="polygon?.stroke?.strokeFill"
+             [attr.fill]="polygon?.stroke?.fill"
+             [attr.stroke-opacity]="polygon?.stroke?.opacity"
+             [attr.stroke-dasharray]="polygon?.stroke?.dashArray"
+             [attr.stroke-width]="polygon?.stroke?.thickness"
+             [attr.points]="pointsString"
+             vector-effect="non-scaling-stroke"
+             (mousedown)="onPolygonMouseDown($event)"
+             (mouseover)="onPolygonMouseOver($event)">
+</svg:polygon>

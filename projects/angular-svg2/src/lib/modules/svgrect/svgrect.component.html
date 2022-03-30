@@ -1,0 +1,11 @@
+<svg:rect [attr.x]="rectangle?.x"
+          [attr.y]="rectangle?.y"
+          [attr.stroke]="rectangle?.stroke?.strokeFill"
+          [attr.stroke-dasharray]="rectangle?.stroke?.dashArray"
+          [attr.stroke-width]="rectangle?.stroke?.thickness"
+          [attr.fill]="rectangle?.stroke?.fill"
+          vector-effect="non-scaling-stroke"
+          [attr.stroke-opacity]="rectangle?.stroke?.opacity"
+          (mousedown)="onRectangleMouseDown($event)"
+          (mouseover)="onRectangleMouseOver($event)">
+</svg:rect>`

@@ -1,0 +1,13 @@
+<svg:ellipse [attr.cx]="ellipse?.cx"
+             [attr.cy]="ellipse?.cy"
+             [attr.rx]="ellipse?.rx"
+             [attr.ry]="ellipse?.ry"
+             [attr.stroke]="ellipse?.stroke?.strokeFill"
+             [attr.stroke-dasharray]="ellipse?.stroke?.dashArray"
+             [attr.stroke-width]="ellipse?.stroke?.thickness"
+             [attr.fill]="ellipse?.stroke?.fill"
+             vector-effect="non-scaling-stroke"
+             [attr.stroke-opacity]="ellipse?.stroke?.opacity"
+             (mousedown)="onEllipseMouseDown($event)"
+             (mouseover)="onEllipseMouseOver($event)">
+</svg:ellipse>

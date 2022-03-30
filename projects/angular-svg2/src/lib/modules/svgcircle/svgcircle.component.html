@@ -1,0 +1,12 @@
+<svg:circle [attr.cx]="circle?.cx"
+            [attr.cy]="circle?.cy"
+            [attr.r]="circle?.r"
+            [attr.stroke]="circle?.stroke?.strokeFill"
+            [attr.stroke-dasharray]="circle?.stroke?.dashArray"
+            [attr.stroke-width]="circle?.stroke?.thickness"
+            [attr.fill]="circle?.stroke?.fill"
+            vector-effect="non-scaling-stroke"
+            [attr.stroke-opacity]="circle?.stroke?.opacity"
+            (mousedown)="onCircleMouseDown($event)"
+            (mouseover)="onCircleMouseOver($event)">
+</svg:circle>
