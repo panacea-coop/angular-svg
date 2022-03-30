@@ -65,6 +65,7 @@ SvgPathModule
 | 3.2.x           | 10.x            |
 | 3.3.x           | 11.x            |
 | 3.4.x           | 12.x            |
+| 3.5.x           | 13.x            |
 
 ## Attributions
 This library is a fork of https://www.npmjs.com/package/angular-svg from [Yaswanth Kata](https://www.npmjs.com/~yashkata) under same MIT license.
