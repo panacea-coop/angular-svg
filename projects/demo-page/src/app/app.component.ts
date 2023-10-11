@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {Polygon, Polyline} from "../../../angular-svg/src/lib/types";
+import {Polygon, Polyline} from "angular-svg";
 
 @Component({
   selector: 'app-root',

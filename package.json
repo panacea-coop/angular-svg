@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build angular-svg",
+    "build": "ng build angular-svg --configuration production",
+    "publish": "ng build angular-svg --configuration production && cd dist/angular-svg && npm publish --access public",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
