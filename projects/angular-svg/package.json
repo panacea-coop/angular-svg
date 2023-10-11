@@ -2,10 +2,10 @@
   "name": "@panacea-coop/angular-svg",
   "description": "A Angular2 (or more) library to use svg components and leverage angular features. Inline angular binding with svg",
   "author": "https://github.com/panacea-coop/angular-svg/graphs/contributors",
-  "version": "3.6.0",
+  "version": "3.7.0",
   "peerDependencies": {
-    "@angular/common": "^14.0.0",
-    "@angular/core": "^14.0.0"
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0"
   },
   "repository": {
     "type": "git",
